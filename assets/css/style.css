@@ -1,0 +1,699 @@
+/* 
+     Author : Azhar Hussain Masum
+     Email: azhar.neub@gmail.com
+     Website:http://www.azharmasum.com
+     Facebook: https://www.facebook.com/azhar.hussainmasum
+*/
+
+@font-face{
+    src:url(../fonts/DISTGRG_.ttf);
+    font-family: "DistantGalaxy"
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.p-0{
+    padding: 0;
+}
+.p-right{
+    padding-right: 0;
+}
+.p-left{
+    padding-left: 0;
+}
+/*<!--========== Top-header Start=============-->*/
+#top-header{
+    background: #263238;
+    padding: 15px 0px;
+    min-height:60px;
+}
+
+.company-email .fa{
+    font-size:30px;
+    color: #4FC3F7;
+}
+.company-email p{
+    font-size:15px;
+    font-weight:500;
+    line-height: 1;
+    color: #E6E9EC;
+    margin: 0;
+}
+.company-email a{
+    font-size: 13px;
+    color: #E6E9EC;
+}
+.company-tel span{
+    font-size:30px;
+    color: #4FC3F7;
+}
+.company-tel p{
+    font-size:15px;
+    font-weight:500;
+    line-height: 1;
+    color: #E6E9EC;
+    margin: 0;
+}
+.company-tel a{
+    font-size: 13px;
+    color: #E6E9EC;
+}
+.company-time .fa{
+    font-size:30px;
+    color: #4FC3F7;
+}
+.company-time p{
+    font-size:15px;
+    font-weight:500;
+    line-height: 1;
+    color: #E6E9EC;
+    margin: 0;
+}
+.social{
+    padding: 5px 0 0px;
+}
+.social a .fa{
+    color: #ECEFF1;
+    font-size: 25px;
+    transition:0.5s ease-in-out all;
+}
+.social a .fa:hover{
+    transform: rotate(-360deg);
+}
+/*===<!--========== Top-header End=============-->===*/
+/*=========Nav Start============*/
+.navbar-default {
+    min-height: 80px;
+    margin-bottom: 0!important;
+    background: #D3D3D3;
+    border: 0;
+}
+.nav {
+    padding-left: 0;
+    padding-top: 16px;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #212121;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    border-radius: 1px;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 18px;
+    margin-right: 15px;
+    margin-bottom: 16px;
+    background-color: white!important;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.navbar-brand h1 span{
+    font-size: 21px;
+    font-family: "DistantGalaxy";
+    color: #212121;
+    letter-spacing: 6px;
+}
+.navbar-brand h1{
+    margin: 0;
+    margin-top: 2px;
+    font-size: 15px;
+    font-weight:700;
+    color: #212121;
+    text-transform: uppercase;
+
+}
+@keyframes menu_sticky {
+    0%   {margin-top:-120px;opacity: 0;}
+    50%  {margin-top: -64px;opacity: 0;}
+    100% {margin-top: 0;opacity: 1;}
+}
+.navbar-fixed-top{
+    animation-name: menu_sticky;
+    animation-duration: 0.90s;
+    animation-timing-function: ease-in-out;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #212121;
+    font-weight: 800;
+    background-color: transparent;
+    border-bottom: 1px solid #4192B6;
+}
+
+/*=========Nav End============*/
+
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 50%;
+    left: 15%;
+    z-index: 10;
+    transform: translateY(-50%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+
+}
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #01AEF0;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #FFF;
+    border-radius:0px;
+}
+.slide-caption h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.slide-caption p{
+    color: #F7F7F7;
+    font-size: 20px;
+    white-space: pre-line;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.btn-custom1{
+    background: transparent;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius:0;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border:2px solid #4FA9D2;
+
+}
+.btn-custom1:hover{
+    background: #FAFAFA;;
+    color: black;
+    border-color: #fff;
+}
+.btn-custom2{
+    background: transparent;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border-radius:0;
+}
+.btn-custom2:hover{
+    background: transparent;
+    color: white;
+}
+/*===== About-us Start ======*/
+#about{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+#about .title{
+    background: url("../images/logo-bg.png") no-repeat;
+    background-position: center center;
+    margin-bottom: 50px;
+    padding-top: 24px;
+    min-height: 90px;
+
+}
+#about .title span{
+    font-weight: 800;  
+}
+#about h3{
+    font-weight:800;
+    color: black;
+}
+
+/*===== Services Start ======*/
+#service{
+     padding-top: 100px;
+    padding-bottom: 20px;
+}
+#service .title{
+    background: url("../images/logo-bg.png") no-repeat;
+    background-position: center center;
+    margin-bottom: 50px;
+    padding-top: 24px;
+    min-height: 90px;
+}
+#service .title span{
+    font-weight: 800;  
+}
+
+#service .services-demo{
+    padding: 25px 0px 25px 15px;
+    border: 5px solid #F7F7F7;
+    border-radius: 2px;
+    transition: all ease 0.97s;
+    margin-bottom: 15px;
+}
+#service .services-demo:hover{
+    border-color: #4FC3F7;
+}
+#service .services-demo h2{
+    font-weight: 600;
+}  /*===== Services End ======*/
+
+/*===== Hire Start ======*/
+#hire{
+    background: #000000;
+    padding: 50px 0px;
+    min-height: 150px;
+    text-align: center;
+}
+#hire h2{
+    color: #FAFAFA;
+    margin-bottom: 35px;
+}
+#hire a{
+    color: #FAFAFA;
+    padding: 10px 35px;
+    border: 1px solid #409FC9;
+    transition: 0.67s ease all;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#hire a:hover{
+    color:#212121;
+    background: white;
+    text-decoration: none;
+}                            /*===== Hire End ======*/
+
+/**===== Portfolio Start ======*--*/
+#portfolio{
+     padding-top: 100px;
+    padding-bottom: 20px;
+}
+#portfolio .title{
+    background: url("../images/logo-bg.png") no-repeat;
+    background-position: center center;
+    margin-bottom: 50px;
+    padding-top: 24px;
+    min-height: 90px;
+}
+#portfolio .title span{
+    font-weight: 800;  
+}
+.filter-button {
+    text-align: center;
+    margin-bottom: 25px;
+}
+#portfolio .thumbnail{
+    border: 0;
+
+}
+.portfolio-img{
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    border-radius: 7px;
+    transform: scale(0.6);
+    background-color:rgba(93, 92, 92, 0.43);
+    transition: 0.65s ease all;
+}
+.search-plus, .link {
+    position: absolute;
+    top: 80%;
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #fff;
+    font-size: 15px;
+    color: #fff;
+    transition: 0.65s ease all;
+}
+.search-plus{
+    left: 35%;
+    transform: translate(-35%,-80%);
+    opacity:0;
+}
+.link{
+    left: 55%;
+    transform: translate(-55%,-80%);
+    opacity: 0;
+}
+.portfolio-img:hover .overlay{
+    opacity: 1;
+    transform: scale(1);
+}
+.portfolio-img:hover .search-plus{
+    opacity: 1;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.portfolio-img:hover .link{
+    opacity: 1;
+    top: 50%;
+    transform: translateY(-50%);
+}                                 /**===== Portfolio End ======*--*/
+/**===== Team-Member Start ======*--*/
+#team{
+      padding-top: 100px;
+    padding-bottom: 20px;
+}
+#team .title{
+    background: url("../images/logo-bg.png") no-repeat;
+    background-position: center center;
+    margin-bottom: 50px;
+    padding-top: 24px;
+    min-height: 90px;
+
+}
+#team .title span{
+    font-weight: 800;  
+}
+.tm{
+    position: relative;
+}
+
+.overlay-pr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    overflow: hidden;
+    transform: scale(0.5);
+    transition: all 0.66s ease;
+    -moz-transition: all 0.66s ease;
+    -webkit-transition: all 0.66s ease;
+    background: linear-gradient(to bottom, #c98385c9 40%, #2a4556a6 60%);
+}
+.tm-caption{
+    text-align: center;
+    position: absolute;
+    color: #fff;
+    top: 200%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: 1.2s ease all;
+}
+.tm-caption h4{
+    color: #fff;
+    font-weight: 800;
+
+}
+.tm:hover .overlay-pr{
+    opacity: 1;
+    transform: scale(1);
+    overflow: hidden;
+}
+.tm:hover .tm-caption{
+    top: 40%;
+    opacity: 1;
+}
+#multiple .owl-nav {
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    margin-bottom: 10px;
+}
+#multiple .owl-theme .owl-nav [class*=owl-] {
+    color: #132641;
+    font-size: 20px;
+    margin: 5px;
+    padding: 7px 20px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    transition: 0.41s ease all;
+}
+#multiple .owl-theme .owl-nav [class*=owl-]:hover{
+    background: transparent;
+    display: inline-block;
+    border: 1px solid #019EA3;
+    border-radius: 3px;
+}
+#multiple .owl-theme .owl-dots, .owl-theme .owl-nav {
+    text-align: center;
+    margin-top:8px;
+    -webkit-tap-highlight-color: transparent;
+} /**===== Team-Member End ======*--*/
+
+#client{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+#client{
+    
+}
+#client .title{
+    background: url("../images/logo-bg.png") no-repeat;
+    background-position: center center;
+    margin-bottom: 50px;
+    padding-top: 24px;
+    min-height: 90px;
+
+}
+#client .title span{
+    font-weight: 800;  
+}
+#basic .owl-nav {
+    margin-top: 0!important;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    z-index: 100;
+}
+@media(max-width:700px){
+    #basic .owl-nav {
+        margin-top: 0!important;
+        position: absolute;
+        top: 10%;
+        width: 100%;
+        z-index: 100;
+    }
+}
+#basic .owl-theme .owl-nav [class*=owl-]{
+    color: gray;
+    padding: 0;
+    font-size: 65px;
+    background: transparent;
+}
+#basic .owl-theme .owl-nav [class*=owl-]:hover{
+    color: red;
+    padding: 0;
+    background: transparent;
+}
+#basic .owl-prev{
+    position: absolute;
+    left: 0;
+}
+#basic .owl-next{
+    position: absolute;
+    right: 0;
+}
+#basic .owl-theme .owl-dots, .owl-theme .owl-nav {
+    text-align: center;
+    margin-top:5px;
+    -webkit-tap-highlight-color: transparent;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: black;
+}        /*-------Basic-single slide End-----------*/
+/*======   Parallax Start ==========*/
+#parallax{
+    min-height: 50vh;
+    background: url(../images/paralax-bg.jpeg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding: 80px 0;
+    position: relative;
+}
+.parlaax-content{
+    position: relative;
+    z-index: 2!important;
+}
+#parallax .number {
+    margin-top: 5px;
+    font-weight: 700;
+    color: white;
+}
+
+#parallax .text {
+    padding-left: 0;
+    padding-top: 16px;
+    color: white;
+}
+#parallax .text span{
+    font-weight: 600;
+}
+.parlaax-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: linear-gradient(to left, #c98385c9 40%, #2a4556a6 60%);
+}   /*======   Parallax End ==========*/
+
+/*======   Contact Start ==========*/
+#contact{
+    background: url("../images/school-of-business_0.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+    padding: 50px 0;
+}
+.contact-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: linear-gradient(to right, #c9838596 40%, #2a455669 60%);
+}
+.contact-form{
+    z-index: 2;
+    position: relative;
+}
+
+#contact .title{
+    background: url("../images/logo-bg.png") no-repeat;
+    background-position: center center;
+    margin-bottom: 50px;
+    padding-top: 24px;
+    color: white;
+    min-height: 90px;
+}
+#contact .title span{
+    font-weight: 800;  
+}
+#form .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 20px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: transparent;
+    background-image: none;
+    border: 2px solid white;
+    border-radius: 0px
+}
+#form .form-control:focus{
+    background: white;
+}
+.form-control:focus::-webkit-input-placeholder {
+    color: black!important;
+}
+textarea.form-control {
+    padding: 6px 12px!important;
+    height: auto!important;
+}
+.form-control::placeholder {
+    color: white!important;
+    opacity: 1; /* Firefox */
+}
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label {
+    color: darkred;
+    font-weight: 700;
+}
+#form button {
+    padding: 14px 70px;
+    background: aliceblue;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 0;
+}
+/*======   Contact End ==========*/
+
+/*======   Footer Start ==========*/
+footer{
+    background: #303030;
+    min-height: 400px;
+    padding: 35px 0px 0px;
+}
+.top-footer{
+    padding:50px 0px;
+}
+.top-footer h3{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+.top-footer a{
+    color: white;
+
+}
+.top-footer a:hover{
+    color: white;
+
+}
+.top-footer input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+    max-width: 80%;
+}
+.top-footer input:focus{
+    background: white;
+}
+.top-footer input::placeholder{
+    text-align: center;
+}
+.top-footer button{
+    padding: 6px 30px;
+    border-radius: 0;
+}
+.top-footer .contact-info {
+    color: white;
+}
+.top-footer i{
+    padding-right: 10px;
+}
+.bottom-footer{
+    padding: 25px 0px;
+}
+.bottom-footer p{
+    color: white;
+    padding-top: 15px;
+}
+/*======   Footet End ==========*/
